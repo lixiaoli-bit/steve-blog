@@ -6,7 +6,7 @@ import { copyContentPlugin } from './vite-plugin-copy-content'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue(), copyContentPlugin()],
-  base: '/steve-blog/',
+  base: './',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')
